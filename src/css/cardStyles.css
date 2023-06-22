@@ -1,0 +1,59 @@
+.container{
+margin: 1rem;
+
+}
+.card-container{
+    padding: 1rem;
+    display: flex ;
+    justify-content: center;
+    align-items: center;
+    width: auto;
+}
+.top-content{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    
+}
+.last > p{
+    color: red;
+    font-weight: bold;
+}
+.arrow,.content >.icon{
+  
+    color: red;
+}
+.btn-lite{
+    border: 1px solid red;
+    background-color: white;
+    color: red;
+    width: auto;
+}
+.btn-red{
+    border: none;
+    background-color: red;
+    color: white;
+    width: auto;
+}
+.bottom-content{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+.content,.content > p{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    padding: 1rem;
+}
+.disclaimer{
+    display:flex;
+    flex-direction: row;
+}
+.disclaimer > .icon{
+    color: red;
+    font-size: 20px;
+}
